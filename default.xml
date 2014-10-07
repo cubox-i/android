@@ -309,6 +309,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel_imx" name="android_kernel_fsl_imx" remote="cubox-i" revision="aosp-4.4" />
   <project path="libcore" name="android_libcore" remote="cubox-i" revision="aosp-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
