@@ -18,8 +18,8 @@ Then to build:
 
      cd <source-dir>
      source build/envsetup.sh
-     lunch cuboxi-userdebug
-     make -j[N]
+     bib cuboxi
+     brunch cuboxi
 
 If you need more information or a more detailed guide, click [here to see our forum.](http://www.solid-run.com/community/)
 
