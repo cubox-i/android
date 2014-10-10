@@ -18,8 +18,12 @@ Then to build:
 
      cd <source-dir>
      source build/envsetup.sh
-     bib cuboxi
-     brunch cuboxi
+     bib cuboxi4pro
+     brunch cuboxi4pro
+
+
+ps: may will be necessary to run the brunch command again
+    due to bootloader build process
 
 If you need more information or a more detailed guide, click [here to see our forum.](http://www.solid-run.com/community/)
 
