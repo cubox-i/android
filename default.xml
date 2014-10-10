@@ -38,7 +38,9 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/fsl" name="android_device_fsl" remote="cubox-i" revision="aosp-4.4" />
+  <project path="device/fsl/imx-common" name="android_device_fsl_imx-common" remote="cubox-i" revision="aosp-4.4" />
+  <project path="device/fsl/cuboxi-common" name="android_device_fsl_cuboxi-common" remote="cubox-i" revision="aosp-4.4" />
+  <project path="device/fsl/cuboxi4pro" name="android_device_fsl_cuboxi4pro" remote="cubox-i" revision="aosp-4.4" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="cubox-i" revision="aosp-4.4" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
