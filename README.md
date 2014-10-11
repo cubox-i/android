@@ -18,7 +18,6 @@ Then to build:
 
      cd <source-dir>
      source build/envsetup.sh
-     bib cuboxi4pro
      brunch cuboxi4pro
 
 
