@@ -8,7 +8,7 @@ To initialize your local repository using the CuBox-i trees, use a command like 
 
     repo init -u git://github.com/cubox-i/android.git -b <branch>
 
-    latest AOSP branch is [aosp-4.4]
+    latest OmniROM branch is [omni-4.4]
 
 Then to sync up:
 
