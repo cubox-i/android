@@ -287,7 +287,7 @@
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cubox-i" revision="aosp-4.4" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cubox-i" revision="aosp-4.4" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cubox-i" revision="aosp-4.4" />
   <project path="hardware/imx" name="android_hardware_imx" remote="cubox-i" revision="aosp-4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
