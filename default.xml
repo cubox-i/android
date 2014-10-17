@@ -32,7 +32,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
+  <project path="bionic" name="android_bionic" remote="cubox-i" revision="omni-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/bootloader/uboot-imx" name="android_bootable_bootloader_uboot-imx" remote="cubox-i" revision="omni-4.4" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -250,7 +250,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-4.4" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cubox-i" revision="omni-4.4" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -259,21 +259,21 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-4.4" remote="omnirom" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="omni-4.4" remote="cubox-i" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cubox-i" revision="omni-4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cubox-i" revision="omni-4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cubox-i" revision="omni-4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-4.4" />
@@ -292,15 +292,15 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cubox-i" revision="omni-4.4" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cubox-i" revision="omni-4.4" />
   <project path="hardware/imx" name="android_hardware_imx" remote="cubox-i" revision="omni-4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cubox-i" revision="omni-4.4" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cubox-i" revision="omni-4.4" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-4.4" />
@@ -314,16 +314,16 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cubox-i" revision="omni-4.4" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="cubox-i" revision="omni-4.4" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cubox-i" revision="omni-4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-4.4" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="omnirom" revision="android-4.4" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="omnirom" revision="android-4.4" />
   <project path="kernel/fsl/imx" name="android_kernel_fsl_imx" remote="cubox-i" revision="omni-4.4" />
-  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-4.4" />
+  <project path="libcore" name="android_libcore" remote="cubox-i" revision="omni-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-4.4" />
@@ -448,10 +448,10 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.4" />
+  <project path="system/core" name="android_system_core" remote="cubox-i" revision="omni-4.4" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-4.4" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-4.4" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-4.4" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="cubox-i" revision="omni-4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -465,8 +465,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/fsl" name="proprietary_vendor_fsl" remote="cubox-i" revision="omni-4.4" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
-  <project path="vendor/fsl" name="proprietary_vendor_fsl" remote="cubox-i" revision="omni-4.4" />
 
 </manifest>
